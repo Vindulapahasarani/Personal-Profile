@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media ="screen and (max-width:800px)" href="table.css">
+    <link rel="stylesheet" media ="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Hi! <br> I AM <br> VINDU</h1>
+            <button class="btn">
+                Click Here
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+            <h1 class="headings">ABOUT ME</h1>
+            <img src="2.jpg" alt="">
+            <div id="intro">
+                <h2>Vindula Pahasarani</h2>
+                <p>I'm a Computer Science student, Eastern University of Sri Lanka.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="3.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="3.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="s.jfif" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p> Web design is a multi-disciplinary job, where you'd need not only knowledge in design (typography, color theory) but also skills in developing a website (HTML, CSS, JavaScript). Some web designers are also involved in interaction design when they code for animations and interactions using CSS and/or JavaScript.</p>
+            </div>
+            <div class="box">
+                <img src="ui-ux.jfif" alt="">
+                <h1 class="headings">UX/UI <br> Design</h1>
+                <p>The term UI/UX stands for user interface/user experience design and refers to the practice of designing digital products with a user-first approach. In other words, the point of UI/UX design is to create a product that will be both visually appealing and highly pleasant to interact with.</p>
+            </div>
+            <div class="box">
+                <img src="dpg.jpeg" alt="">
+                <h1 class="headings">Digital Photography</h1>
+                <p> Digital photography is the process of using electronic and computing appliances to capture, create, edit and share digital images/photographs. It encompasses several different technologies to provide electronic or computer-based photography services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text"name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
